@@ -42,8 +42,8 @@
   {
     "description": "Если орёт кот, нажмите кнопку.",
     "image": {
-      "fileName": "/images/mute-cat.png",
-      "originalName": "mute-cat.png"
+      "fileName": "/images/Mute-Cat.png",
+      "originalName": "Mute-Cat.png"
     },
     "title": "Кнопка «Замьютить кота»",
     "category": "кнопка",
