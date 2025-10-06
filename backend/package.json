@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "tsx watch src/app.ts",
     "start": "node dist/app.js",
-    "build": "tsc && xcopy src\\public dist\\public /E /I /Y",
+    "build": "tsc && cp -R src/public dist/public",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:check": "eslint . --max-warnings 0"
