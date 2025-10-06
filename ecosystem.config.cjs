@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'backend',
-      cwd: __dirname + '/backend',
+      cwd: '/home/stan99/web-larek-express/current/backend',
       script: './dist/app.js',
       watch: false,
       env: {
@@ -14,7 +14,7 @@ module.exports = {
     },
     {
       name: 'frontend',
-      cwd: __dirname + '/frontend',
+      cwd: '/home/stan99/web-larek-express/current/frontend',
       script: './node_modules/vite/bin/vite.js',
       args: 'preview --port 8080 --host 0.0.0.0',
       watch: false,
