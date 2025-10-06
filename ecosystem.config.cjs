@@ -32,7 +32,7 @@ module.exports = {
       repo: 'https://github.com/stan99-cheb/web-larek-express.git',
       path: '/home/stan99/web-larek-express',
       'pre-deploy-local': '',
-      'post-deploy': 'cd backend && npm install && npm run build && cd ../frontend && npm install && npm run build && cd .. && pm2 reload ecosystem.config.cjs --env production',
+      'post-deploy': 'cd backend && npm install && npm run build && cd ../frontend && npm install && npm run build && cd .. && pm2 reload ecosystem.config.cjs --env production && pm2 save',
       'pre-setup': ''
     }
   }
